@@ -1,6 +1,6 @@
 # Tear-down Design -- Heatmap of the Smashing Magazine Home Page 
 
-> This project was to create a Heatmap of the smahing magazine homepage using grayscale coloring.
+> The Objctive of this project is to create a Heatmap of the smashing magazine homepage using grayscale color.
 
 ![screenshot](./app_screenshot.png)
 
