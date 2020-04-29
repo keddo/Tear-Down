@@ -1,11 +1,83 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 
-nav {
-    background: #d33a2c;
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;   
 }
+
+.nav {
+    background: #d33a2c;
+    /* filter: grayscale(100%); */
+    padding: 1em 1.2em;
+}
+
 .logo img {
     width: 208px;
     height: 76px;
+}
+
+.nav,
+.main-nav-list {
+    display: flex;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.nav .logo {
+    flex-basis: 210px;
+    align-self: center;
+}
+.main-nav-list {
+    list-style: none;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+.main-nav-list li {
+    margin: 0 0.8em;
+}
+
+.main-nav-list a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav-list h2 {
+  font-size: calc(.8rem + .6vw);
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  padding: 0.7em 0;
+}
+
+.main-nav-list p {
+    font-size: 0.75rem;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 1.1px;
+}
+
+.btn {
+    padding: 0.7em;
+    border: 3px solid #fff;
+    background-color: transparent;
+}
+
+.btn-lg {
+    align-self: center;
+    flex-basis: 130px;
+    border-radius: 12px;
+    margin-left: 0.8em;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
 }
