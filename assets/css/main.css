@@ -14,7 +14,7 @@ body {
 .nav {
     background: #d33a2c;
     /* filter: grayscale(100%); */
-    padding: 1em 1.2em;
+    padding: 1em 1.5em;
 }
 
 .logo img {
@@ -80,4 +80,25 @@ body {
     font-size: .9em;
     font-weight: 400;
     color: #fff;
+}
+
+.featured-article-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-article-1 {
+    background: #bc3428;
+}
+
+.grid-article-2 {
+   background: #c7372a;
+}
+
+.grid-article-3 {
+   background: #b13125;
+}
+
+.grid-article-4 {
+    background: #bc3428;
 }
