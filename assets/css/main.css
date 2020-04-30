@@ -276,3 +276,33 @@ body {
     position: absolute;
     bottom: 0.5em;
 }
+
+.latest-article {
+    background-color: #f6f3f2;
+}
+
+.latest-article .container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.vertical-line {
+    max-width: 30em;
+    display: block;
+    background-image: linear-gradient(#000,#000);
+    background-size: 60% 1px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    line-height: 1;
+    transform-origin: left center;
+    transform: rotateZ(90deg) translateX(-5em) translateY(1em);
+    letter-spacing: 4px;
+    font-variant: small-caps;
+}
+.vertical-fallback {
+    width: 35em;
+    color: #000;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    text-align: right;
+}
