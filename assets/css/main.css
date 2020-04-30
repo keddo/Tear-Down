@@ -306,3 +306,136 @@ body {
     text-transform: uppercase;
     text-align: right;
 }
+
+.latest-article-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    align-content: center;
+}
+
+.article-grid {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.article-grid-wrapper header {
+    margin-top: 1.5em;
+}
+
+.article-grid-wrapper time {
+    display: block;
+    padding-bottom: 1em;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.article-grid-title {
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-bottom: 1.5em;
+    line-height: 1.2;
+}
+
+.article-grid-title a {
+    color: #111;
+    text-shadow: 3px 0 #f6f3f2, 2px 0 #f6f3f2, 1px 0 #f6f3f2, -1px 0 #f6f3f2, -2px 0 #f6f3f2, -3px 0 #f6f3f2;
+}
+
+.article-grid-title a:hover {
+    color: #c7372a;
+    filter: grayscale(100%);
+}
+
+.article-grid-wrapper span {
+   display: block;
+   color: #666;
+   font-weight: 700;
+   font-size: .8em;
+   padding-bottom: 1.5em;
+}
+
+.article-grid-wrapper span a {
+   color: #666;
+}
+
+.meow-intro,
+.article-grid-content {
+    font-size: 0.95em;
+    line-height: 1.7;
+    word-break: break-word;
+}
+
+.article-grid-content {
+    color: #333;
+}
+
+.article-grid-content::after {
+    content: ' ';
+    display: block;
+    margin-top: 1.6em;
+}
+
+.article-grid-wrapper::after {
+    content: "→";
+    display: block;
+    font-size: 1em;
+    padding: 1em 1.7em;
+    width: 7em;
+    height: 1em;
+    text-align: center;
+    background-color: inherit;
+    margin-top: 3em;
+}
+
+.article-grid-card {
+    background-color: #d33a2c;
+    filter: grayscale(100%);
+    border-radius: 0.8em;
+    margin-bottom: 1em;
+}
+
+.grid-card-content-wrapper {
+    color: #fff;
+    padding: 0 1em 3em 1em;
+}
+
+.dashboard-header-title {
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0.8em 0;
+}
+
+.dashboard-header-title a {
+  color: #fff;
+}
+
+.meow-intro a {
+    color: #fff;
+}
+
+.btn-medium {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 0.6em;
+    margin: 1em 0;
+    text-align: center;
+    color: #006fc6;
+}
+
+.meow-membership {
+    display: block;
+    font-size: 0.75em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.meow-membership a {
+    color: #fff;
+}
