@@ -367,6 +367,11 @@ body {
     word-break: break-word;
 }
 
+.meow-intro {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
 .article-grid-content {
     color: #333;
 }
