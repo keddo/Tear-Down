@@ -547,3 +547,118 @@ body {
     margin: 2.5em auto;
     margin-bottom: -2em;
 }
+
+.col-12 {
+    width: 100%;
+    padding: 0 1em;
+}
+
+.person-1-of-the-week {
+    display: flex;
+    margin: 3em 0;
+}
+
+.person-1-of-the-week-img {
+    margin: 1.8em 1.25em 1.25em 0;
+}
+
+.bio-img-wrapper img{
+    border: 8px solid #d33a2c;
+    border-radius: 0.7em;
+}
+
+.bio-img-img {
+    width: 180px;
+}
+
+.l-person-of-the-week-content {
+    flex-basis: 25em;
+    min-width: 12.5em;
+    flex: 1;
+    color: #aaa;
+}
+
+.l-person-of-the-week-content p {
+    width: 95%;
+    line-height: 1.6;
+    font-size: 0.95em;
+    letter-spacing: 0.1;
+    margin: 1.25em auto;
+    color: #111;
+}
+
+.author-desc-title {
+     width: 95%;
+     margin: 0 auto;
+}
+
+.l-community-highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3.5em;
+}
+
+.article-post-img img {
+   width: 60px;
+   border: 4px solid #d33a2c;
+   filter: grayscale(100%);
+}
+
+.l-community-link .article-post {
+    display: flex;
+}
+
+.article-post-content {
+    margin-left: 2em;
+}
+
+.article--post__author-name {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.article--post__author-name a {
+    text-decoration: none;
+    color: #444;
+    font-size: 1.1em;
+    font-weight: 900;
+    border-bottom: 1px solid #111;
+}
+
+.post-title {
+    color: #333;
+    font-size: calc(1.125em + 1vw);
+    margin: .15em 0 .5em;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post-teaser {
+  line-height: calc(1.5em + .2vw);
+  word-break: break-word;
+  font-size: 0.95em;
+}
+
+.post-teaser a {
+    color: #0023c6;
+    filter: grayscale(100%);
+}
+
+.post-teaser a:hover {
+    color: #006fc6;
+    text-decoration: none;
+}
+
+.post-time {
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    font-size: 0.7em;
+    font-style: italic;
+    color: #666;
+}
