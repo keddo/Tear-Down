@@ -566,6 +566,7 @@ body {
 .bio-img-wrapper img{
     border: 8px solid #d33a2c;
     border-radius: 0.7em;
+    filter: grayscale(100%);
 }
 
 .bio-img-img {
