@@ -432,6 +432,7 @@ body {
     margin: 1em 0;
     text-align: center;
     color: #006fc6;
+    font-size: 0.8em;
 }
 
 .meow-membership {
@@ -839,17 +840,18 @@ body {
     outline: none;
 }
 
-.btn-medium {
+.btn-md {
     width: 10em;
-    padding: 1.2em;
+    padding: 1.3em;
     position: absolute;
     right: 0;
-    top: -0.9em;
+    top: 0;
     border: none;
     border-radius: 0;
     border-left: 1px solid #ddd;
-    border-bottom-right-radius: 0.5em;
+    border-bottom-right-radius: 0.6em;
     border-top-right-radius: 0.5em;
+    background-color: #fff;
 }
 
 .ladda-label {
@@ -889,7 +891,7 @@ body {
 
 .footer-topics-title {
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1.4em;
     margin: 2em 0;
     opacity: 1!important;
     letter-spacing: 0.1em;
@@ -908,11 +910,6 @@ body {
 .footer__topics__item a {
    color: inherit;
    text-decoration: none;
-}
-
-.footer-topics-list li {
-    list-style: none;
-    list-style-image: url(../images/svg/bullet.svg) !important;
 }
 
 .footer-notes p:first-of-type {
@@ -945,4 +942,14 @@ body {
 
 .footer-links li a {
     color: #fff;
+}
+
+.footer__topics__item::before {
+    content: '•';
+    margin: 0 .25em 0 .25em;
+    display: inline-block;
+    color: #811d15;
+    font-size: 1.2em;
+    position: relative;
+    top: 2px;
 }
