@@ -11,6 +11,12 @@ body {
  padding: 0;   
 }
 
+h2.hidden,
+h3.hidden,
+h4.hidden {
+    display: none;
+}
+
 .nav {
     background: #d33a2c;
     filter: grayscale(100%);
@@ -115,7 +121,7 @@ body {
      padding: 2em 1em;
 }
 
-.featured-article h1{
+.featured-article h2{
   width: 55%;
   position: relative;
   margin-top: 3%;
@@ -126,7 +132,7 @@ body {
   z-index: 999;
 }
 
-.featured-article h1 span {
+.featured-article h2 span {
   background-color: #fff;
   padding: .5em .6em;
   line-height: 1.5em;
@@ -218,13 +224,13 @@ body {
     padding-top: 4em;
 }
 
-.featured-article h2 {
+.featured-article h1 {
     padding: 0.8em 0;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.featured-article h2 a {
+.featured-article h1 a {
     text-decoration: none;
     color: #fff;
 }
