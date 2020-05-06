@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Go Live Demo](https://rawcdn.githack.com/keddo/apple_page/a28c906ecf97455eae8f359a5139c11f86bbfc6c/index.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/Tear-Down/042cfa74318957710947ec7bda22cee2530a2237/index.html)
 
 
 ## Getting Started

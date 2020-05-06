@@ -5,15 +5,1035 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smashing Magazine — For Web Designers And Developers</title>
-    <link rel="icon" href="assets/images/favicon .ico">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
     <div class="app">
-        
-     </div>
+        <!-- Navbar -->
+        <nav class="nav">
+            <div class="logo">
+                <a href="#" class="nav-logo">
+                    <picture>
+                        <source media="(min-width: 1350px)" srcset="./assets/images/svg/logo--full.svg">
+                        <img src="./assets/images/svg/logo.svg" alt="Smashing Magazine">
+                    </picture>
+                </a>
+            </div>
+
+            <ul class="main-nav-list">
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/svg/articles.svg" alt="" width="39" height="44">
+                        <h2>Articles</h2>
+                        <p>Design &amp; Development</p>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/svg/books.svg" alt="" width="39" height="44">
+                        <h2>Books</h2>
+                        <p>Physical &amp; digital books</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/svg/events.svg" alt="" width="39" height="44">
+                        <h2>Events</h2>
+                        <p>Conference &amp; Workshop</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/svg/jobs.svg" alt="" width="39" height="44">
+                        <h2>Jobs</h2>
+                        <p>Find work &amp; employees</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/images/svg/membership.svg" alt="" width="39" height="44">
+                        <h2>Membership</h2>
+                        <p>Webinar &amp; early-birds</p>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="btn btn-lg">
+                <i class="fas fa-search"></i>
+                Topics
+            </button>
+        </nav>
+
+        <main>
+            <div class="featured-article-container">
+                <article class="featured-article p-all grid-article-1">
+                    <h2>
+                        <span> Don’t Miss These Latest
+                        </span>
+                        <span class="down">Articles</span>
+                    </h2>
+                    <div class="featured-article-wrap p-t-1">
+                        <div class="featured-wrap">
+                            <div class="featured-article-img rotate-45">
+                                <figure>
+                                    <a href="#">
+                                        <img src="./assets/images/blessing-krofegha-200x200.jpg"
+                                            alt="Blessing krofegha">
+                                    </a>
+                                </figure>
+                            </div>
+                            <p>
+                                <a href="#" class="article-author-name">Blessing Krofegha
+                                    <span class="wrote">wrote</span>
+                                </a>
+                            </p>
+                        </div>
+
+                        <h3 class="featured-article-title">
+                            <a href="#">Implementing Dark Mode In React Apps Using styled-components</a>
+                        </h3>
+
+                        <p class="article-comment">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>Leave a comment</span>
+                        </p>
+
+                        <ul class="featured-list">
+                            <li>
+                                <a href="#">
+                                    Apps
+                                    <sup>194</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    React
+                                    <sup>34</sup>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="featured-article p-all grid-article-2">
+                    <div class="setting-wrapper">
+                        <div class="settings__image rotate-45">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 24 24" enable-background="new 0 0 24 24">
+                                <g>
+                                    <path
+                                        d="m13.3 4.1c-.4-.1-.9-.1-1.3-.1-4.4.0-8 3.6-8 8s3.6 8 8 8c.4.0.9.0 1.3-.1 3.9-.6 6.7-4 6.7-7.9s-2.8-7.2-6.7-7.9zm-1.1 13.9c-.1.0-.1.0-.2.0-3.3.0-6-2.7-6-6s2.7-6 6-6c.1.0.1.0.2.0v12z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <button class="btn-md">Seriously, red?</button>
+                    </div>
+                    <div class="featured-article-wrap p-t-2">
+                        <div class="featured-wrap">
+                            <div class="featured-article-img rotate-45">
+                                <figure>
+                                    <a href=" #">
+                                        <img src="./assets/images/timi-oyeni-200x200.jpg" alt="Timi oyeni">
+                                    </a>
+                                </figure>
+                            </div>
+                            <p>
+                                <a href="#" class="article-author-name">Timi Omoyeni
+                                    <span class="wrote">wrote</span>
+                                </a>
+                            </p>
+                        </div>
+
+                        <h3 class="featured-article-title">
+                            <a href="#">Getting Started With Nuxt</a>
+                        </h3>
+
+                        <p class="article-comment">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>Leave a comment</span>
+                        </p>
+
+                        <ul class="featured-list">
+                            <li>
+                                <a href="#">
+                                    Vue
+                                    <sup>17</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Javascript
+                                    <sup>257</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Tools
+                                    <sup>216</sup>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="featured-article p-all grid-article-3">
+
+                    <div class="featured-article-wrap">
+                        <div class="featured-wrap">
+                            <div class="featured-article-img rotate-45">
+                                <figure>
+                                    <a href="#">
+                                        <img src="./assets/images/bobby-sebolao-200x200.jpg" alt="bobby Sebolao">
+                                    </a>
+                                </figure>
+                            </div>
+                            <p>
+                                <a href="#" class="article-author-name">Bobby Sebolao
+                                    <span class="wrote">wrote</span>
+                                </a>
+                            </p>
+                        </div>
+
+                        <h3 class="featured-article-title">
+                            <a href="#">Why Collaborative Coding Is The Ultimate Career Hack</a>
+                        </h3>
+
+                        <p class="article-comment">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>Leave a comment</span>
+                        </p>
+
+                        <ul class="featured-list">
+                            <li>
+                                <a href="#">
+                                    Business
+                                    <sup>298</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Workflow
+                                    <sup>322</sup>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </article>
+                <article class="featured-article p-all grid-article-4">
+
+                    <div class="featured-article-wrap">
+                        <div class="featured-wrap">
+                            <div class="featured-article-img rotate-45">
+                                <figure>
+                                    <a href="#">
+                                        <img src="./assets/images/aleem-isiaka-200x200.jpg" alt="Aleem isiaka">
+                                    </a>
+                                </figure>
+                            </div>
+                            <p>
+                                <a href="#" class="article-author-name">Aleem Isiaka
+                                    <span class="wrote">wrote</span>
+                                </a>
+                            </p>
+                        </div>
+
+                        <h3 class="featured-article-title">
+                            <a href="#">Aleem Isiaka</a>
+                        </h3>
+
+                        <p class="article-comment">
+                            <i class="fas fa-comment-alt"></i>
+                            <span>Leave a comment</span>
+                        </p>
+
+                        <ul class="featured-list">
+                            <li>
+                                <a href="#">
+                                    Node.js
+                                    <sup>33</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Tools
+                                    <sup>216</sup>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Javascript
+                                    <sup>257</sup>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div class="latest-article">
+                <div class="container">
+                    <div class="row">
+                        <h4 class="vertical-fallback vertical-line">
+                            <span>Latest Posts</span></h4>
+                        <div class="latest-article-grid-container">
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            3 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                Getting Started With Nuxt
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Timi Omoyeni</a>
+                                        </span>
+                                    </header>
+
+                                    <p class="article-grid-content">
+                                        In this tutorial, we’re going to learn how to create server-side rendered
+                                        applications by using Nuxt.js, how to configure your application for
+                                        development, and how to deploy to Heroku.
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            6 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                Why Collaborative Coding Is The Ultimate Career Hack
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Bobby Sebolao</a>
+                                        </span>
+                                    </header>
+
+                                    <p class="article-grid-content">
+                                        Whatever stage you’re at in your career, coding collaboratively is one of the
+                                        best uses of your time. With remote working on the rise, there’s never been a
+                                        better time to practice pair programming and embrace Agile development.
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            8 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                Responsive Web And Desktop Development With Flutter
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Carmine Zaccagnino</a>
+                                        </span>
+                                        <h2 class="hidden">Heading Level 2</h2>
+                                    </header>
+
+                                    <p class="article-grid-content">
+                                        Flutter has already made quite a splash on the mobile development scene. Now
+                                        it’s taking on bigger devices as well. Here’s what you need to know to be ready
+                                        to take on the task of developing web and desktop apps using this wonderful
+                                        cross-platform …
+                                    </p>
+                                </article>
+                            </div>
+                            <!-- card like -->
+                            <div class="article-grid article-grid-card">
+                                <div class="grid-card-content-wrapper">
+                                    <div class="meow-masthead">
+                                        <div class="col">
+                                            <a href="#">
+                                                <img src="./assets/images/svg/singing-barista.svg" alt="Single Barista"
+                                                    width="258" height="290">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col meow-content">
+                                        <h1 class="dashboard-header-title">
+                                            <a href="#">
+                                                1,651 smashing members
+                                            </a>
+                                        </h1>
+                                        <p class="meow-intro">
+                                            A friendly community that keeps this website alive. With books, webinars,
+                                            discounts and networking — for just 1 coffee a month.
+                                            <a href="#">Join the family.</a>
+
+                                        </p>
+                                        <a href="#" class="btn-medium" role="button">
+                                            Explore features&nbsp;→
+                                        </a>
+                                        <small class="meow-membership">
+                                            Already have an account?
+                                            <a href="#">Sign in!</a>
+                                        </small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /end of card like -->
+
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            8 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                Responsive Web And Desktop Development With Flutter
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Carmine Zaccagnino</a>
+                                        </span>
+                                    </header>
+
+                                    <p class="article-grid-content">
+                                        Flutter has already made quite a splash on the mobile development scene. Now
+                                        it’s taking on bigger devices as well. Here’s what you need to know to be ready
+                                        to take on the task of developing web and desktop apps using this wonderful
+                                        cross-platform …
+                                    </p>
+                                </article>
+                            </div>
+
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            9 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                How To Create A Compelling Landing Page
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Carmine Paul Boag</a>
+                                        </span>
+                                        <h2 class="hidden"> Heading Level 2</h2>
+                                    </header>
+                                    
+                                    <p class="article-grid-content">
+                                        Creating a compelling landing page involves a combination of clear focus,
+                                        persuasive copy, considered design and relentless testing. Without all four your
+                                        page will fail.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            9 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                Smashing Podcast Episode 14 With Rachel Andrew: How Can I Run Online
+                                                Workshops?
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Drew McLellan</a>
+                                        </span>
+                                    </header>
+                                    <p class="article-grid-content">
+                                        In this episode of the Smashing Podcast, we’re talking about running online
+                                        workshops. How can a traditional event adapt when participants can’t attend in
+                                        person? Drew McLellan talks to Rachel Andrew to find out.
+                                    </p>
+                                </article>
+                            </div>
+
+                            <div class="article-grid">
+                                <article class="article-grid-wrapper">
+                                    <header>
+                                        <time datetime="2020-04-27T10:30:00+0000">
+                                            10 days ago
+                                        </time>
+                                        <h2 class="article-grid-title">
+                                            <a href="#">
+                                                Implementing Skeleton Screens In React
+                                            </a>
+                                        </h2>
+                                        <span>
+                                            by
+                                            <a href="#">Blessing Krofegha</a>
+                                        </span>
+                                        <h2 class="hidden">Header level 2</h2>
+                                    </header>
+
+                                    <p class="article-grid-content">
+                                        Spinners and loaders have traditionally been the way to tell users that content
+                                        is going to take a while to load. While this approach is great, it’s quickly
+                                        becoming obsolete in modern development.
+                                    </p>
+                                </article>
+                            </div>
+                            <!-- card like -->
+                            <div class="article-grid article-grid-card">
+                                <div class="grid-card-content-wrapper">
+                                    <div class="meow-masthead">
+                                        <div class="col">
+                                            <a href="#">
+                                                <img src="./assets/images/svg/cat-smashing-tv-2.svg"
+                                                    alt="Single Barista" width="258" height="290">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col meow-content">
+                                        <h1 class="dashboard-header-title">
+                                            <a href="#">
+                                                New on Smashing TV
+                                            </a>
+                                        </h1>
+                                        <p class="meow-intro">
+                                            A channel where seasoned developers show how they design, build, work and
+                                            play.
+                                            Coming up next:
+                                            <a href="#">Designing UX, Live</a>
+                                            with Paul Boag (May 1).
+                                        </p>
+                                        <a href="#" class="btn-medium" role="button">
+                                            See all upcoming episodes&nbsp;→
+                                        </a>
+                                        <small class="meow-membership">
+                                            Already have an account?
+                                            <a href="#">Sign in!</a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /end of card like -->
+                        </div>
+                        <div class="load-more">
+                            <a href="#" class="load-more-link">
+                                See All Latest Articles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="handbook-panel handbook-darkgreen-bg">
+                <div class="container">
+                    <div class="row">
+                        <header>
+                            <span class="handbook-panel-time">March 2020 • Shipping now</span>
+                            <h1 class="handbook-panel-title">
+                                <a href="#">Ethical Design Handbook:</a>
+                                <br>
+                                Leaving Dark Patterns Behind.
+                            </h1>
+                        </header>
+                        <p class="handbook-panel-desc">
+                            With <strong>practical techniques & strategies</strong>
+                            to make honest design work for digital products. Help your business grow sustainably —
+                            without dark patterns — and comply with GDPR and CCPA.
+                        </p>
+                        <a href="#" class="btn-large">Learn more about the book&nbsp;→</a>
+
+                        <a href="#">
+                            <img src="./assets/images/ethical-design-transparent.png"
+                                alt="A Smashing Cat peeking behind the Ethical Design Handbook cover."
+                                class="handbook-panel-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="curated-article-container bg-white">
+                <div class="container">
+                    <div class="row">
+                        <h4 class="vertical-fallback vertical-line">
+                            <span>Community Links</span></h4>
+
+                        <div class="col-12">
+                            <div class="person-1-of-the-week">
+                                <div class="person-1-of-the-week-img">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="bio-img-wrapper rotate-45">
+                                                <img src="./assets/images/joe-leech-250px-opt.png"
+                                                    alt="Joe Leech, person of the week" class="bio-img-img">
+                                            </div>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="l-person-of-the-week-content">
+                                    <h4 class="author-desc-title">Person Of The Week</h4>
+                                    <p>Joe Leech (<a href="https://twitter.com/mrjoe">@mrjoe</a>) is the author of the
+                                        book <em>Psychology for Designers</em>. A recovering neuroscientist, then a
+                                        spell as an elementary school teacher, Joe started his UX career 15 years ago.
+                                        Today he helps big organizations and startups with digital product management
+                                        and strategy as well as user experience. He has worked with organizations like
+                                        MoMa, Raspberry Pi, AO.com, Disney, eBay, and Marriott, and shares his
+                                        experience speaking at conferences and running workshops. Thank you for
+                                        everything you do for the web community, dear Joe.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 l-community-highlights">
+                            <div class="l-community-link">
+                                <article class="article-post">
+                                    <header>
+                                        <div class="article-post-img">
+                                            <figure role="presentation">
+                                                <a href="#">
+                                                    <div class="bio-img-wrapper rotate-45">
+                                                        <img src="./assets/images/virendra-singh-opt.png"
+                                                            alt="Virendra Singh">
+                                                    </div>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </header>
+                                    <div class="article-post-content">
+                                        <span class="article--post__author-name"><a href="#">Virendra Singh</a>
+                                            <span>wrote</span></span>
+                                        <h2 class="post-title">
+                                            <a href="#" class="post-link">
+                                                Performance Monitoring In CSS Animations
+                                            </a>
+                                        </h2>
+                                        <div class="post-content">
+                                            <p class="post-teaser"><time datetime="2020-04-30" class="post-time">April
+                                                    30, 2020 —</time>
+                                                Performance monitoring in CSS animations. Virendra Singh wrote a <a
+                                                    href="#">quick
+                                                    guide</a> on how to find slow animations and how to speed them up
+                                                significantly.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="l-community-link">
+                                <article class="article-post">
+                                    <header>
+                                        <div class="article-post-img">
+                                            <figure role="presentation">
+                                                <a href="#">
+                                                    <div class="bio-img-wrapper rotate-45">
+                                                        <img src="./assets/images/sebastien-lorber-opt.png"
+                                                            alt="Sébastien Lorber">
+                                                    </div>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </header>
+                                    <div class="article-post-content">
+                                        <span class="article--post__author-name"><a href="#">Sébastien Lorber</a>
+                                            <span>wrote</span></span>
+                                        <h2 class="post-title">
+                                            <a href="#" class="post-link">
+                                                Atomic CSS-in-JS
+                                            </a>
+                                        </h2>
+                                        <h2 class="hidden">Header level 2</h2>
+                                        <div class="post-content">
+                                            <p class="post-teaser"><time datetime="2020-04-29" class="post-time">April
+                                                    29, 2020 —</time>
+                                                Atomic CSS-in-JS? Sure, you can do that, too. Sébastien Lorber wrote a
+                                                great <a href="#">case
+                                                    study</a> about it, explaining what atomic CSS is and how it relates
+                                                to functional/utility-first CSS.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="l-community-link">
+                                <article class="article-post">
+                                    <header>
+                                        <div class="article-post-img">
+                                            <figure role="presentation">
+                                                <a href="#">
+                                                    <div class="bio-img-wrapper rotate-45">
+                                                        <img src="./assets/images/sarah-drasner-100px-opt.png"
+                                                            alt="Sarah Drasner">
+                                                    </div>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </header>
+                                    <div class="article-post-content">
+                                        <span class="article--post__author-name"><a href="#">Sarah Drasner</a>
+                                            <span>wrote</span></span>
+                                        <h2 class="post-title">
+                                            <a href="#" class="post-link">
+                                                Hero Generator
+                                            </a>
+                                        </h2>
+                                        <h2 class="hidden">Header level 2</h2>
+                                        <div class="post-content">
+                                            <p class="post-teaser"><time datetime="2020-04-28" class="post-time">April
+                                                    28, 2020 —</time>
+                                                Sarah Drasner had to implement the same hero for several years. To
+                                                streamline the process, she built a <a href="#">generator</a>
+                                                that generates the code for a common hero layout based on your
+                                                preferences.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="l-community-link">
+                                <article class="article-post">
+                                    <header>
+                                        <div class="article-post-img">
+                                            <figure role="presentation">
+                                                <a href="#">
+                                                    <div class="bio-img-wrapper rotate-45">
+                                                        <img src="./assets/images/vincent-will-opt.png"
+                                                            alt="Vincent Will">
+                                                    </div>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </header>
+                                    <div class="article-post-content">
+                                        <span class="article--post__author-name"><a href="#">Vincent Will</a>
+                                            <span>wrote</span></span>
+                                        <h2 class="post-title">
+                                            <a href="#" class="post-link">
+                                                CSS Separator Generator
+                                            </a>
+                                        </h2>
+                                        <h2 class="hidden">Header level 2</h2>
+                                        <div class="post-content">
+                                            <p class="post-teaser"><time datetime="2020-04-27" class="post-time">April
+                                                    27, 2020 —</time>
+                                                Are you bored of straight lines? Vincent Will built a little tool that
+                                                lets you generate <a href="#">CSS-only
+                                                    separators</a> with interesting angles, curves, and other shapes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="l-community-link">
+                                <article class="article-post">
+                                    <header>
+                                        <div class="article-post-img">
+                                            <figure role="presentation">
+                                                <a href="#">
+                                                    <div class="bio-img-wrapper rotate-45">
+                                                        <img src="./assets/images/joe-previte-opt.png"
+                                                            alt="Joe Previteh">
+                                                    </div>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </header>
+                                    <div class="article-post-content">
+                                        <span class="article--post__author-name"><a href="#">Joe Previteh</a>
+                                            <span>wrote</span></span>
+                                        <h2 class="post-title">
+                                            <a href="#" class="post-link">
+                                                GitHub Tips And Tricks
+                                            </a>
+                                        </h2>
+                                        <h2 class="hidden">Header level 2</h2>
+                                        <div class="post-content">
+                                            <p class="post-teaser"><time datetime="2020-04-24" class="post-time">April
+                                                    24, 2020 —</time>
+                                                Joe Previte shares <a href="#">tips for
+                                                    boosting your GitHub productivity</a>. Bite-sized things that you
+                                                can take advantage of right away.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="l-community-link">
+                                <article class="article-post">
+                                    <header>
+                                        <div class="article-post-img">
+                                            <figure role="presentation">
+                                                <a href="#">
+                                                    <div class="bio-img-wrapper rotate-45">
+                                                        <img src="./assets/images/tim-kadlec-opt.png" alt="Tim Kadlec">
+                                                    </div>
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </header>
+                                    <div class="article-post-content">
+                                        <span class="article--post__author-name"><a href="#">Tim Kadlec</a>
+                                            <span>wrote</span></span>
+                                        <h2 class="post-title">
+                                            <a href="#" class="post-link">
+                                                The Cost Of JavaScript Frameworks
+                                            </a>
+                                        </h2>
+                                        <div class="post-content">
+                                            <p class="post-teaser"><time datetime="2020-04-23" class="post-time">April
+                                                    23, 2020 —</time>
+                                                Tim Kadlec used data from HTTP Archive to <a href="#">get
+                                                    a sense of the performance cost</a> (in both bytes and main thread
+                                                time) of using various popular JavaScript frameworks.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="load-more"><a class="load-more-link" href="#">More links on Twitter</a></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="feature-panel">
+                <div class="panel-lef-col">
+                    <div class="feature-panel-desc"><span class="feature-panel-meta">Featured Smashing
+                            Book</span>
+                        <h2 class="feature-panel-title"><a href="#">Design Systems</a>
+                        </h2>
+                        <p>Meet <strong>Design Systems</strong>, a recent Smashing book in which Alla Kholmatova
+                            explores how to set up an <strong>effective design system</strong> to create great digital
+                            products. With common traps, gotchas and lessons learned.</p>
+                    </div>
+                    <a role="button" class="btn-white" href="#">Table of
+                        Contents&nbsp;↬</a>
+                </div>
+                <div class="panel-right-col">
+                    <a href="#">
+                        <div class="feature-panel-img rotate-45">
+                            <img class="feature-panel-image-img" src="./assets/images/design-systems-hardcover-book.png"
+                                alt="Design Systems, a new Smashing book" width="256" height="373">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="curated-article-container bg-beige">
+                <div class="container">
+                    <div class="row">
+                        <h4 class="vertical-fallback vertical-line">
+                            <span>Curated Posts</span></h4>
+                        <div class="article-grid-container">
+                            <div class="article-grid">
+                                <article class="article-grid-content-wrapper">
+                                    <header><small class="article-grid-note">Guides</small>
+                                        <h2 class="article-grid-title">New Front-End Challenges To Master</h2>
+                                    </header>
+
+                                    <div class="article-grid-content">
+                                        <ul>
+                                            <li><a href="#">CSS
+                                                    Grid Layout</a></li>
+                                            <li><a href="#">Pattern
+                                                    Library</a></li>
+                                            <li><a href="#">Progressive
+                                                    Web Apps</a></li>
+                                            <li><a href="#">Switching
+                                                    to HTTPS</a></li>
+                                            <li><a href="#">HTTP/2
+                                                    Guidelines</a></li>
+                                            <li><a href="#">React
+                                                    &amp; Vue.js</a></li>
+                                            <li><a href="#">Redux
+                                                    For Designers</a></li>
+                                            <li><a href="#">Vue
+                                                    Components</a></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="article-grid">
+                                <article class="article-grid-content-wrapper">
+                                    <header><small class="article-grid-note">Guides</small>
+                                        <h2 class="article-grid-title">Performance Optimization & Strategy</h2>
+                                    </header>
+
+                                    <div class="article-grid-content">
+                                        <ul>
+                                            <li><a href="#">Quick Performance Wins</a></li>
+                                            <li><a href="#">Building For Performance</a></li>
+                                            <li><a href="#">Front-End Optimization</a></li>
+                                            <li><a href="#">Back-End Optimization</a></li>
+                                            <li><a href="#">Better Compression</a></li>
+                                            <li><a href="#">Progressive Web Apps</a></li>
+                                            <li><a href="#">Perceived Performance</a></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="article-grid">
+                                <article class="article-grid-content-wrapper">
+                                    <header><small class="article-grid-note">Guides</small>
+                                        <h2 class="article-grid-title">Design Patterns & Checklists</h2>
+                                    </header>
+
+                                    <div class="article-grid-content">
+                                        <ul>
+                                            <li><a href="#">Responsive Art-Direction</a></li>
+                                            <li><a href="#">Perfect Configurator</a></li>
+                                            <li><a href="#">Perfect Web Form</a></li>
+                                            <li><a href="#">Perfect Accordion</a></li>
+                                            <li><a href="#">Perfect Date Picker</a></li>
+                                            <li><a href="#">Perfect Slider</a></li>
+                                            <li><a href="#">Perfect Comparison Table</a></li>
+                                            <li><a href="#">Perfect Infinite Scroll</a></li>
+                                            <li><a href="#">Perfect Carousel</a></li>
+                                            <li><a href="#">Privacy UX</a></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="article-grid">
+                                <article class="article-grid-content-wrapper">
+                                    <header>
+                                        <small class="article-grid-note">Guides</small>
+                                        <h2 class="article-grid-title">Improving Workflow & Data Protection</h2>
+                                    </header>
+
+                                    <div class="article-grid-content">
+                                        <ul>
+                                            <li><a href="#">GDPR For Developers</a></li>
+                                            <li><a href="#">Privacy Framework</a></li>
+                                            <li><a href="#">Estimating Time</a></li>
+                                            <li><a href="#">Dealing With Irrational Clients</a></li>
+                                            <li><a href="#">Getting Deliverables Right</a></li>
+                                            <li><a href="#">Meeting Deadlines</a></li>
+                                            <li><a href="#">Convincing Clients</a></li>
+                                            <li><a href="#">Invoicing Clients</a></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="article-grid span-2-col meow-content-large">
+                                <div class="meow-masthead">
+                                    <div class="meow-content">
+                                        <h2 class="h2"><a href="#">Smashing Newsletter</a></h2>
+                                        <p class="meow-intro">Imagine you wrote a beautiful song and nobody discovered
+                                            it.<br>That would make any cat sad. Don't let that happen!</p>
+
+                                        <div class="meow-illustration"><a href="#">
+                                                <img src="./assets/images/svg/cat-with-trampet.svg"
+                                                    alt="A quite musical cat."></a></div>
+                                        <div class="form-wrapper">
+                                            <form>
+                                                <input type="email" class="form-field"
+                                                    placeholder="Your (smashing) email">
+                                                <button class="btn-md-b"><span
+                                                        class="ladda-label">Subscribe
+                                                        →</span></button>
+                                            </form>
+                                        </div>
+
+                                        <small class="promo-newsletter-caption">Front-end, design and UX. Sent 2× a
+                                            month.<br>You can always unsubscribe with just one click.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="load-more"><a class="load-more-link" href="#">See All Articles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container">
+                <div class="col-12">
+                    <div class="footer-topics open">
+                        <h4 class="footer-topics-title" id="topics">Browse All Smashing Magazine Topics</h4>
+                        <ul class="footer-topics-list">
+                            <li class="footer__topics__item"><a href="#">Accessibility</a></li>
+                            <li class="footer__topics__item"><a href="#">Android</a></li>
+                            <li class="footer__topics__item"><a href="#">Animation</a></li>
+                            <li class="footer__topics__item"><a href="#">Apps</a></li>
+                            <li class="footer__topics__item"><a href="#">CSS</a></li>
+                            <li class="footer__topics__item"><a href="#">Design</a></li>
+                            <li class="footer__topics__item"><a href="#">Design Patterns</a>
+                            </li>
+                            <li class="footer__topics__item"><a href="#">Design Systems</a></li>
+                            <li class="footer__topics__item"><a href="#">E-Commerce</a></li>
+                            <li class="footer__topics__item"><a href="#">Freebies</a></li>
+                            <li class="footer__topics__item"><a href="#">Graphics</a></li>
+                            <li class="footer__topics__item"><a href="#">HTML</a></li>
+                            <li class="footer__topics__item"><a href="#">Illustrator</a></li>
+                            <li class="footer__topics__item"><a href="#">Inspiration</a></li>
+                            <li class="footer__topics__item"><a href="#">iOS</a></li>
+                            <li class="footer__topics__item"><a href="#">JavaScript</a></li>
+                            <li class="footer__topics__item"><a href="#">Mobile</a></li>
+                            <li class="footer__topics__item"><a href="#">Pattern Libraries</a>
+                            </li>
+                            <li class="footer__topics__item"><a href="#">Performance</a></li>
+                            <li class="footer__topics__item"><a href="#">Photoshop</a></li>
+                            <li class="footer__topics__item"><a href="#">Plugins</a></li>
+                            <li class="footer__topics__item"><a href="#">React</a></li>
+                            <li class="footer__topics__item"><a href="#">Responsive Web
+                                    Design</a></li>
+                            <li class="footer__topics__item"><a href="#">Service Workers</a>
+                            </li>
+                            <li class="footer__topics__item"><a href="#">Sketch</a></li>
+                            <li class="footer__topics__item"><a href="#">Typography</a></li>
+                            <li class="footer__topics__item"><a href="#">UI</a></li>
+                            <li class="footer__topics__item"><a href="#">Usability</a></li>
+                            <li class="footer__topics__item"><a href="#">User Experience</a>
+                            </li>
+                            <li class="footer__topics__item"><a href="#">Wallpapers</a></li>
+                            <li class="footer__topics__item"><a href="#">Web Design</a></li>
+                            <li class="footer__topics__item"><a href="#">WordPress</a></li>
+                            <li class="footer__topics__item"><a href="#">Workflow</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-notes">
+                        <p>With a commitment to quality content for the design community.</p>
+                        <p>Founded by Vitaly Friedman and Sven Lennartz. <span class="lining-figures">2006–2020</span>.
+                        </p>
+                        <p>Smashing is proudly running on <a href="#">Netlify</a>.
+                        </p>
+                        <p>Fonts by <a href="http://latinotype.com/">Latinotype</a>.</p>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li>✎ <a href="#">Write for us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">About us (Impressum)</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Membership login</a></li>
+                        <li><a href="#">Delivery times</a></li>
+                        <li><a href="#">Advertise</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" defer></script>
 </body>
