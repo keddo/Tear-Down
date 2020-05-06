@@ -232,7 +232,7 @@ h4.hidden {
   padding-top: 4em;
 }
 
-.featured-article h1 {
+.featured-article .featured-article-title {
   padding: 0.8em 0;
   font-size: 3rem;
   font-weight: 700;
@@ -302,7 +302,7 @@ h4.hidden {
   color: #fff;
 }
 
-.featured-article h1 a {
+.featured-article .featured-article-title a {
   text-decoration: none;
   color: #fff;
 }
@@ -315,6 +315,7 @@ h4.hidden {
 }
 
 .featured-list {
+  list-style: none;
   display: flex;
 }
 
