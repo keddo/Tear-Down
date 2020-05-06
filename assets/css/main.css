@@ -121,7 +121,7 @@ h4.hidden {
 }
 
 .featured-article h2 {
-  width: 55%;
+  width: 356px;
   position: relative;
   margin-top: 3%;
   left: 0;
@@ -142,8 +142,8 @@ h4.hidden {
 .featured-article h2 span {
   background-color: #fff;
   padding: 0.5em 0.6em;
-  line-height: 1.5em;
   font-size: 1.5em;
+  display: inline-block;
 }
 
 .setting-wrapper {
