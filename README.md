@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Open Live Demo](https://rawcdn.githack.com/keddo/Tear-Down/042cfa74318957710947ec7bda22cee2530a2237/index.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/Tear-Down/ec3dd6ae2f962cdf5f4e58a53bb10ffea93e5afb/index.html)
 
 
 ## Getting Started
