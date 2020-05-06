@@ -368,7 +368,7 @@ h4.hidden {
   font-weight: 700;
   padding: 0;
   position: absolute;
-  bottom: 0.5em;
+  top: 11em;
 }
 
 .latest-article {
