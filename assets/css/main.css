@@ -302,6 +302,26 @@ h4.hidden {
   color: #fff;
 }
 
+.featured-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.article-grid-wrapper span a {
+  color: #666;
+}
+
+.article-grid-content li a {
+  color: #0023c6;
+  filter: grayscale(100%);
+}
+
+.footer-links li a {
+  color: #fff;
+}
+
 .featured-article .featured-article-title a {
   text-decoration: none;
   color: #fff;
@@ -321,13 +341,6 @@ h4.hidden {
 
 .featured-list li {
   margin-right: 1em;
-}
-
-.featured-list li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 700;
 }
 
 .featured-list li::before {
@@ -424,19 +437,6 @@ h4.hidden {
   padding-bottom: 1.5em;
   line-height: 1.2;
   margin: 0;
-}
-
-.article-grid-wrapper span a {
-  color: #666;
-}
-
-.article-grid-content li a {
-  color: #0023c6;
-  filter: grayscale(100%);
-}
-
-.footer-links li a {
-  color: #fff;
 }
 
 .article-grid-title a:hover {
